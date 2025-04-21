@@ -1,3 +1,4 @@
+/* Variáveis globais de cores e estilos */
 :root {
   --bg-color: #f8f9fa;
   --primary-color: #0077cc;
@@ -7,12 +8,14 @@
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 
+/* Reset básico de margem e padding */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/* Estilo base do corpo da página */
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--bg-color);
@@ -20,6 +23,7 @@ body {
   line-height: 1.6;
 }
 
+/* Cabeçalho */
 header {
   background-color: var(--primary-color);
   color: white;
@@ -27,11 +31,13 @@ header {
   text-align: center;
 }
 
+/* Título do cabeçalho */
 header h1 {
   font-size: 2rem;
   margin-bottom: 10px;
 }
 
+/* Navegação */
 nav {
   margin-top: 10px;
 }
@@ -49,6 +55,7 @@ nav a:hover {
   color: #dfeeff;
 }
 
+/* Seções principais */
 section {
   background-color: var(--card-bg);
   margin: 30px auto;
@@ -58,30 +65,36 @@ section {
   box-shadow: var(--shadow);
 }
 
+/* Títulos das seções */
 h2 {
   font-size: 1.6rem;
   margin-bottom: 20px;
   color: var(--primary-color);
 }
 
+/* Parágrafos, listas e rótulos */
 p, li, label {
   font-size: 1rem;
 }
 
+/* Lista sem marcadores */
 ul {
   list-style: none;
   padding-left: 0;
 }
 
+/* Espaçamento entre itens da lista */
 ul li {
   margin: 10px 0;
 }
 
+/* Ícones na lista */
 ul li i {
   margin-right: 8px;
   color: var(--primary-color);
 }
 
+/* Campos de formulário */
 form input, form textarea {
   width: 100%;
   padding: 12px;
@@ -91,6 +104,7 @@ form input, form textarea {
   font-size: 1rem;
 }
 
+/* Botão do formulário */
 form button {
   background-color: var(--primary-color);
   color: white;
@@ -106,6 +120,7 @@ form button:hover {
   background-color: #005fa3;
 }
 
+/* Rodapé */
 footer {
   text-align: center;
   padding: 30px 20px;
@@ -114,6 +129,7 @@ footer {
   font-size: 0.9rem;
 }
 
+/* Responsividade para telas menores */
 @media (max-width: 600px) {
   section {
     padding: 30px 20px;
